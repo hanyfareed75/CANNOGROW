@@ -1,5 +1,6 @@
 <?php
-require_once __DIR__ . '/vendor/autoload.php';
+require 'vendor/autoload.php';
+// require_once __DIR__ . '/vendor/autoload.php';
 echo "Welcome to the API!<br>" getcwd() . "<br>";
 use App\Controllers\ItemsController;
 use App\Controllers\StoreController;
