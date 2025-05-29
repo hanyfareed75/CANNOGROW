@@ -1,4 +1,7 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 namespace App\Controllers;
 // This file is part of the Inventory Management System.
 // It is responsible for handling item-related operations such as fetching and storing items.
