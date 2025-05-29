@@ -1,5 +1,8 @@
 <?php
 require_once 'models/itemsModel.php';
+require __DIR__ . '/../vendor/autoload.php';
+use Respect\Validation\Validator as v;
+use Respect\Validation\Exceptions\NestedValidationException;
 
 class ItemsController {
 private $model;

@@ -15,7 +15,12 @@ abstract class BaseController
         $stmt = $this->db->query("SELECT * FROM {$this->table}");
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
     }
-
+    function renderView(string $view): void
+    {
+       $results = $this->getAll();
+        
+        include __DIR__ . "/../views/{$view}.php";
+    }
     public function getById($id): ?array
     {
         $stmt = $this->db->prepare("SELECT * FROM {$this->table} WHERE id = :id");
