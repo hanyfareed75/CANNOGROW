@@ -5,8 +5,8 @@
     "autoload": {
         "psr-4": {
             "App\\": "control/",
-            "App\\Models\\": "control/models/",
-            "App\\Controllers\\": "control/controllers/"
+            "App\\models\\": "control/models/",
+            "App\\controllers\\": "control/controllers/"
         }
     },
     "authors": [
