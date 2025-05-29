@@ -95,16 +95,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
 if (isset($_GET['items'])) {
-    require_once 'controllers/itemsController.php';
+    // require_once 'controllers/itemsController.php';
     $controller = new ItemsController();
     $controller->getItems();
 } elseif (isset($_GET['store'])) {
-    require_once 'controllers/storeController.php';
+    // require_once 'controllers/storeController.php';
 
     $controller = new StoreController();
     $controller->getStore();
 } elseif (isset($_GET['products'])) {
-    require_once 'controllers/productController.php';
+    // require_once 'controllers/productController.php';
     $controller = new ProductController();
     $controller->getProduct();
 } elseif (isset($_GET['orders'])) {
