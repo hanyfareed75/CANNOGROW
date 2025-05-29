@@ -1,0 +1,115 @@
+/* Variables */
+:root {
+  --primary-bg: #e7e9db;
+  --text-color: rgb(133, 122, 122);
+  --accent-color: darkblue;
+  --shadow: 2px 2px 3px #ababab;
+  --font-family: 'Audiowide', sans-serif;
+  --padding-standard: 20px;
+}
+
+/* Base styles */
+body {
+  background: radial-gradient(
+    263px at 100.2% 3%,
+    rgb(12, 85, 141) 31.1%,
+    rgb(205, 181, 93) 36.4%,
+    rgb(244, 102, 90) 50.9%,
+    rgb(199, 206, 187) 60.7%,
+    rgb(249, 140, 69) 72.5%,
+    rgb(12, 73, 116) 72.6%
+  );
+  color: var(--text-color);
+  font-family: var(--font-family);
+}
+
+/* Typography */
+h1, h2, h3 {
+  color: var(--accent-color);
+  font-family: var(--font-family);
+  font-weight: bold;
+  text-shadow: var(--shadow);
+  text-decoration-color: aquamarine;
+}
+
+/* Links */
+a {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--text-color);
+  text-shadow: var(--shadow);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: grey;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: var(--primary-bg);
+  min-width: 250px;
+  padding: 15px;
+  color: var(--text-color);
+}
+
+.sidebar a {
+  display: block;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* Table styles */
+.table th {
+  background-color: #034870;
+  color: rgb(19, 17, 89);
+  padding: var(--padding-standard);
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: var(--shadow);
+}
+
+.table td {
+  background-color: var(--primary-bg);
+  color: var(--text-color);
+  padding: var(--padding-standard);
+}
+
+/* Form elements */
+label, input, select, select option {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  padding: var(--padding-standard);
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: var(--shadow);
+}
+
+/* Custom classes */
+.custom_font {
+  color: #576778;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .d-flex {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    order: 2;
+  }
+
+  .content {
+    order: 1;
+  }
+
+  input, select {
+    width: 100%;
+    padding: 15px;
+  }
+}
