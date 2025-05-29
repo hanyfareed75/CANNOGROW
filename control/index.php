@@ -1,5 +1,5 @@
 <?php
-
+require_once __DIR__ . '/vendor/autoload.php';
 require_once 'controllers/apiController.php';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_GET['items'])) {
