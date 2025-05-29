@@ -1,4 +1,9 @@
 <?php
+namespace App\Controllers;
+// This file is part of the Inventory Management System.
+// It is responsible for handling item-related operations such as fetching and storing items.
+// This file is part of the Inventory Management System.
+
 // require_once 'models/itemsModel.php';
 require __DIR__ . '/../vendor/autoload.php';
 use Respect\Validation\Validator as v;
