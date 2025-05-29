@@ -1,12 +1,14 @@
 
 <?php
-require_once __DIR__ . '/../config/database.php';
+namespace App\Models;
+
 
 class ItemModel {
     private PDO $db;
    
     private $conn;
     public function __construct() {
+        require_once __DIR__ . '/../config/database.php';
         $this->db = (new Database())->connect();
     }
 
