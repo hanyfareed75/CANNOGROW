@@ -1,5 +1,5 @@
 <?php
-namespace App\Controllers;
+namespace App\Controllers\ItemsController;
 // This file is part of the Inventory Management System.
 // It is responsible for handling item-related operations such as fetching and storing items.
 // This file is part of the Inventory Management System.
