@@ -3,7 +3,7 @@
 require __DIR__ . '/../vendor/autoload.php';
 use Respect\Validation\Validator as v;
 use Respect\Validation\Exceptions\NestedValidationException;
-use itemsModel\ItemModel;
+use App\Models\ItemModel;
 class ItemsController {
 private $model;
 
