@@ -76,9 +76,9 @@
               تصنيع
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/?recipe">وصـفات</a></li>
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/?items">أصـناف</a></li>
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/?store">مـخـزن</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/?recipe">وصـفات</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/?items">أصـناف</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/?store">مـخـزن</a></li>
             </ul>
           </li>
 
@@ -88,13 +88,13 @@
               مبيعات
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/?products">منتـجـات</a></li>
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/?orders">أوامـر بيـع</a></li>
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/?customers">عمـلاء</a></li>
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/views/complains.html">شكـاوى</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/?products">منتـجـات</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/?orders">أوامـر بيـع</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/?customers">عمـلاء</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/views/complains.html">شكـاوى</a></li>
               
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/?agents">مندوب الشحن</a></li>
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/?orderDelivary">تسليم أوردر</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/?agents">مندوب الشحن</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/?orderDelivary">تسليم أوردر</a></li>
             </ul>
           </li>
 
@@ -104,9 +104,9 @@
               حسابات
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/?accTrans">اليومية</a></li>
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/views/journal.html">دفتر أستاذ</a></li>
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/views/gl.html">القيود</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/?accTrans">اليومية</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/views/journal.html">دفتر أستاذ</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/views/gl.html">القيود</a></li>
             </ul>
           </li>
 
@@ -116,9 +116,9 @@
               تقارير
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/views/dailttrans.html">تقارير مخزن</a></li>
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/?reports">تقارير مبيعات</a></li>
-              <li><a class="dropdown-item" href="https://cannigrow.free.nf/managment/?reports">تقارير حسابات</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/views/dailttrans.html">تقارير مخزن</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/?reports">تقارير مبيعات</a></li>
+              <li><a class="dropdown-item" href="https://cannigrow.free.nf/control/?reports">تقارير حسابات</a></li>
             </ul>
           </li>
         </ul>
@@ -134,28 +134,28 @@
   <h1 class="text-white">القائمة الجانبية</h1>
   <hr>
   <h2 class="text-white">تصنيع</h2>
-  <a href="https://cannigrow.free.nf/managment/?recipe">وصـفات</a>
-  <a href="https://cannigrow.free.nf/managment/?items">أصـناف</a>
-  <a href="https://cannigrow.free.nf/managment/?store">مـخـزن</a>
+  <a href="https://cannigrow.free.nf/control/?recipe">وصـفات</a>
+  <a href="https://cannigrow.free.nf/control/?items">أصـناف</a>
+  <a href="https://cannigrow.free.nf/control/?store">مـخـزن</a>
   <hr>
   <h2 class="text-white">مبيعات</h2>
-  <a href="https://cannigrow.free.nf/managment/?products">منتـجـات</a>
-  <a href="https://cannigrow.free.nf/managment/?orders">أوامـر بيـع</a>
-  <a href="https://cannigrow.free.nf/managment/?customers">عمـلاء</a>
-  <a href="https://cannigrow.free.nf/managment/views/complains.html">شكـاوى</a>
+  <a href="https://cannigrow.free.nf/control/?products">منتـجـات</a>
+  <a href="https://cannigrow.free.nf/control/?orders">أوامـر بيـع</a>
+  <a href="https://cannigrow.free.nf/control/?customers">عمـلاء</a>
+  <a href="https://cannigrow.free.nf/control/views/complains.html">شكـاوى</a>
  
-  <a href="https://cannigrow.free.nf/managment/?agents">مندوب الشحن</a>
-  <a href="https://cannigrow.free.nf/managment/?orderDelivary">تسليم أوردر</a>
+  <a href="https://cannigrow.free.nf/control/?agents">مندوب الشحن</a>
+  <a href="https://cannigrow.free.nf/control/?orderDelivary">تسليم أوردر</a>
   <hr>
   <h2 class="text-white">حسابات</h2>
-  <a href="https://cannigrow.free.nf/managment/?accTrans">اليومية</a>
-  <a href="https://cannigrow.free.nf/managment/views/journal.html">دفتر أستاذ</a>
-  <a href="https://cannigrow.free.nf/managment/views/gl.html">القيود</a>
+  <a href="https://cannigrow.free.nf/control/?accTrans">اليومية</a>
+  <a href="https://cannigrow.free.nf/control/views/journal.html">دفتر أستاذ</a>
+  <a href="https://cannigrow.free.nf/control/views/gl.html">القيود</a>
   <hr>
   <h2 class="text-white">تقارير</h2>
-  <a href="https://cannigrow.free.nf/managment/views/dailttrans.html">تقارير مخزن</a>
-  <a href="https://cannigrow.free.nf/managment/?reports">تقارير مبيعات</a>
-  <a href="https://cannigrow.free.nf/managment/views/gl.html">تقارير حسابات</a>
+  <a href="https://cannigrow.free.nf/control/views/dailttrans.html">تقارير مخزن</a>
+  <a href="https://cannigrow.free.nf/control/?reports">تقارير مبيعات</a>
+  <a href="https://cannigrow.free.nf/control/views/gl.html">تقارير حسابات</a>
 </div>
 
 
