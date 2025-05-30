@@ -17,17 +17,14 @@ jobs:
           fetch-depth: 2
 
       - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftpupload.net
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: htdocs/
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/node_modules/**
-            README.md
+          local-dir: ./public/
+          
           log-level: verbose
           dangerous-clean-slate: false
           state-name: .ftp-deploy-sync-state.json
