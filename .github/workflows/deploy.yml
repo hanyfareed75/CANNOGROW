@@ -16,28 +16,26 @@ jobs:
         with:
           fetch-depth: 2
 
+      - name: Create Directories on FTP
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+          lftp -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ftp://ftpupload.net <<EOF
+          mkdir -p htdocs/api
+          mkdir -p htdocs/control
+          mkdir -p htdocs/views
+          mkdir -p htdocs/public
+          quit
+          EOF
+
       - name: FTP Deploy
-         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ftpupload.net
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: htdocs/
           local-dir: ./public/
-          
           log-level: verbose
           dangerous-clean-slate: false
           state-name: .ftp-deploy-sync-state.json
-          local-dir: ./
-
-      - name: Create Directories
-        uses: SteFSF/ftp-create-dirs-action@v1.0
-        with:
-          host: ftpupload.net
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          directories: |
-            htdocs/api
-            htdocs/control
-            htdocs/views
-            htdocs/public
