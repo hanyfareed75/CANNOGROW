@@ -1,17 +1,17 @@
 {
     "name": "hany-f/cannogrow",
+    "description": "CANNOGROW Project",
+    "type": "project",
     "autoload": {
         "psr-4": {
-            "HanyF\\Cannogrow\\": "src/"
+            "App\\": "control/",
+            "App\\Controllers\\": "control/controllers/",
+            "App\\Models\\": "control/models/"
         }
     },
-    "authors": [
-        {
-            "name": "hanyfareed75",
-            "email": "74150388+hanyfareed75@users.noreply.github.com"
-        }
-    ],
     "require": {
-        "phpmailer/phpmailer": "^6.10"
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.10",
+        "respect/validation": "^2.2"
     }
 }
