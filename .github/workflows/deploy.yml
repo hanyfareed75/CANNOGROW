@@ -32,7 +32,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: htdocs/
-          local-dir: ./
+          local-dir: /control
           log-level: verbose
           dangerous-clean-slate: false
           state-name: .ftp-deploy-sync-state.json
